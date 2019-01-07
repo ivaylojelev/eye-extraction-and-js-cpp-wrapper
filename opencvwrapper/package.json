@@ -1,0 +1,14 @@
+{
+  "name" : "opencvwrapper",
+  "version": "0.0.1",
+  "description": "opencv wrapper for gazetracker",
+  "main": "index.js",
+  "scripts": {
+	"install": "node-gyp rebuild"
+  },
+  "dependencies": {
+	"bindings": "~1.3.0",
+	"nan": "~2.8.0"
+  },
+  "gypfile": true
+}
